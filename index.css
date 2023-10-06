@@ -1,0 +1,78 @@
+*{
+    font-size: 15px;
+    font-Family: [Outfit](https://fonts.google.com/specimen/Outfit);
+}
+    
+body {
+    
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    height: 470px;
+    width: 330px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+
+img {
+    padding: 10px;
+    margin-top: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.txt {
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    font-size: 700px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 13px;
+        margin: 9px;
+        padding-top: 20%;
+        padding-left: 7%;
+        
+    }
+
+    .card {
+        height: 430px;
+        width: 280px;
+        border-radius: 20px;
+        margin-left: 14px;
+        background-color: #ffffff;
+        align-items: center;
+    
+    }
+    
+    img {
+        padding: 3px;
+        margin: 10px;
+        margin-top: 9px;
+        padding-top: 9px;
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .txt {
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 100px;
+    }
+}
